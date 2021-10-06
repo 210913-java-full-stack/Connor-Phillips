@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bruh:project xmlns:bruh="http://maven.apache.org/POM/4.0.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <bruh:modelVersion>4.0.0</bruh:modelVersion>
+
+    <bruh:groupId>org.example</bruh:groupId>
+    <bruh:artifactId>Project 0</bruh:artifactId>
+    <bruh:version>1.0-SNAPSHOT</bruh:version>
+
+    <bruh:properties>
+        <bruh:maven.compiler.source>8</bruh:maven.compiler.source>
+        <bruh:maven.compiler.target>8</bruh:maven.compiler.target>
+    </bruh:properties>
+
+    <bruh:dependencies>
+        <!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
+        <bruh:dependency>
+            <bruh:groupId>org.mariadb.jdbc</bruh:groupId>
+            <bruh:artifactId>mariadb-java-client</bruh:artifactId>
+            <bruh:version>2.7.4</bruh:version>
+        </bruh:dependency>
+    </bruh:dependencies>
+
+</bruh:project>
