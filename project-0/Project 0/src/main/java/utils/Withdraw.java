@@ -36,7 +36,7 @@ public class Withdraw {
             }
 
             account.withdraw(ac_num, amountWithdrawn);
-            System.out.printf("$%.2f has been withdrawn from your account!\n", amountWithdrawn);
+            System.out.printf("$%,.2f has been withdrawn from your account!\n", amountWithdrawn);
             LoggedIn.LMenu(username);
         }
         catch (SQLException | WithdrawTooMuch message){

@@ -36,7 +36,7 @@ public class Deposit {
                 depositFunds(username);
             }
             account.deposit(ac_num, deposit);
-            System.out.printf("$%.2f successfully deposited into your account!\n", deposit);
+            System.out.printf("$%,.2f successfully deposited into your account!\n", deposit);
         }
         catch (SQLException message){
             System.out.println(message.getMessage());
